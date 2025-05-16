@@ -16,13 +16,11 @@ Welcome to the Azure MCP Server tutorial! This repository demonstrates how to se
 
 1. Clone this repository
 2. Start the MCP server:
-   ```bash
-   ./start-server.sh
-   ```
+   `./start-server.sh`
 
 ## 📁 Project Structure
 
-```
+```sh
 .
 ├── start-server.sh           # Server startup script (SSE transport)
 └── custom-mcp-server/       # Custom implementations
@@ -107,6 +105,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## ⭐ Related Resources
 
-- [Azure MCP Documentation](https://learn.microsoft.com/azure/messaging)
-- [Azure Message Channel Protocol](https://github.com/Azure/azure-mcp)
+- [Azure Model Context Protocol](https://github.com/Azure/azure-mcp)
 - [Model Context Protocol SDK](https://www.npmjs.com/package/@modelcontextprotocol/sdk)
